@@ -13,7 +13,7 @@ The output columns are:
 
 1. `Name`
 2. `Total Hours`
-3. `Base Pay`
+3. `Base Hourly`
 4. `Guaranteed Rate`
 
 ## Weekly Process
@@ -93,9 +93,9 @@ Employees listed under `Ignore These Employees` are excluded from the output.
 
 `Guaranteed Rate` is calculated as:
 
-- Non-tip-pool employees: same as `Base Pay`
-- Employees with `Base Pay > 0`: `Base Pay + 3`
-- Employees with `Base Pay = 0`: `0`
+- Non-tip-pool employees: same as `Base Hourly`
+- Employees with `Base Hourly > 0`: `Base Hourly + 3`
+- Employees with `Base Hourly = 0`: `0`
 
 ## Example Run
 

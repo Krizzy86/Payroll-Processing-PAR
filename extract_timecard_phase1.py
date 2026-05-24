@@ -163,7 +163,7 @@ def write_output(records: list[EmployeeRecord], output_path: Path, config: dict[
     wb = Workbook()
     ws = wb.active
     ws.title = "Phase 1 Extract"
-    headers = ["Name", "Total Hours", "Base Pay", "Guaranteed Rate"]
+    headers = ["Name", "Total Hours", "Base Hourly", "Guaranteed Rate"]
     ws.append(headers)
 
     for cell in ws[1]:
